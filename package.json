@@ -1,0 +1,8 @@
+{
+  "name": "botcamp",
+  "version": "1.0.0",
+  "description": "Projeto do BotCamp da Impulso Network",
+  "main": "index.js",
+  "author": "Marco Bruno",
+  "license": "MPL-2.0"
+}
