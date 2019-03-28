@@ -10,11 +10,10 @@ import "./styles/reset.css";
 class App extends Component {
     render() {
         return (
-            <> 
+            <LoginWrapper>
                 <LogoBotcamp />
                 <BtnBotcamp />
-                <LoginWrapper />
-            </>
+            </LoginWrapper>
         )
     }
 }
