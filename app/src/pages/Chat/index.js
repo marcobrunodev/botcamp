@@ -6,7 +6,7 @@ import LogoutBotcamp from "../../components/LogoutBotcamp";
 
 const Chat = () => (
   <HeaderWrapper>
-    <LogoBotcamp />
+    <LogoBotcamp small />
     <LogoutBotcamp />
   </HeaderWrapper>
 );
