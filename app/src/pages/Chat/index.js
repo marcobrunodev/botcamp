@@ -1,5 +1,7 @@
 import React from "react";
 
-const Chat = () => <h1>Chat</h1>;
+import LogoBotcamp from "../../components/LogoBotcamp";
+
+const Chat = () => <LogoBotcamp />;
 
 export default Chat;
