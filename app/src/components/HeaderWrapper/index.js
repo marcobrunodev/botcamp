@@ -12,11 +12,9 @@ const HeaderWrapper = styled.header`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 50px solid;
-    border-top-color: blue;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
+    border: 0px solid transparent;
+    border-left-width: 100vw;
+    border-top: 14px solid #26265e;
   }
 `;
 
