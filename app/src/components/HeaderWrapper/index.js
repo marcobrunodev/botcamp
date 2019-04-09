@@ -5,16 +5,17 @@ const HeaderWrapper = styled.header`
   padding: 10px 16px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 
   ::after {
     content: "";
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
     border: 0px solid transparent;
-    border-left-width: 100vw;
     border-top: 14px solid #26265e;
+    border-left-width: 100vw;
   }
 `;
 
