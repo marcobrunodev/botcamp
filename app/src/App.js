@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 
-import Login from "./pages/Login";
-import Chat from "./pages/Chat";
+import Router from "./Router";
 
 import "./styles/reset.css";
 
 class App extends Component {
   render() {
-    return <Chat />;
+    return <Router />;
   }
 }
 
