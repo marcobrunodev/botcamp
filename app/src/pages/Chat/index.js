@@ -7,6 +7,7 @@ import LogoutBotcamp from "../../components/LogoutBotcamp";
 import InputMessage from "../../components/InputMessage";
 import MessageBotcamp from "../../components/MessageBotcamp";
 import MessageWrapper from "../../components/MessageWrapper";
+import AvatarBot from "../../components/AvatarBot";
 
 const Chat = () => (
   <>
@@ -21,6 +22,8 @@ const Chat = () => (
       <MessageBotcamp>!rg</MessageBotcamp>
       <MessageBotcamp>!cpf</MessageBotcamp>
       <MessageBotcamp>!asdkfjhasd</MessageBotcamp>
+
+      <AvatarBot />
     </MessageWrapper>
 
     <InputMessage />

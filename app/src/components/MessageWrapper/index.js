@@ -7,7 +7,7 @@ const MessageWrapper = styled.div`
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
-    padding-top: 100px;
+    padding: 100px 16px 0 16px;
     z-index: -1;
 `;
 
