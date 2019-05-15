@@ -8,6 +8,7 @@ const MessageWrapper = styled.div`
     width: 100vw;
     height: 100vh;
     padding-top: 100px;
+    z-index: -1;
 `;
 
 export default MessageWrapper;
