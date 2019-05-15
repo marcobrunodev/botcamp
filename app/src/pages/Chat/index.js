@@ -19,11 +19,10 @@ const Chat = () => (
     </HeaderWrapper>
 
     <MessageWrapper>
-      <MessageBotcamp>!rg</MessageBotcamp>
       <MessageBotcamp>!cpf</MessageBotcamp>
-      <MessageBotcamp>!asdkfjhasd</MessageBotcamp>
 
       <AvatarBot />
+      <MessageBotcamp bot>123.123.123-21</MessageBotcamp>
     </MessageWrapper>
 
     <InputMessage />
