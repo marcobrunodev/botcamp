@@ -6,18 +6,12 @@ const MessageBotcamp = styled.p`
     color: ${({bot}) => bot ? "#333" : "#fff"};
     padding: 10px 15px;
     width: 68%;
-    margin-left: auto;
-    margin-top: 30px;
-    margin: 0 0 20px auto; 
+    margin: 0 0 20px ${({bot}) => bot ? "10px" : "auto"}; 
     border-radius: ${({bot}) => bot ? 
                         "0 10px 10px 10px" : 
                         "10px 0 10px 10px"
                     };
-    ${({bot}) => bot && "border: 1px solid #d7d7ea"}
-
-    &:first-child {
-        margin-top: 50px;
-    }
+    ${({bot}) => bot && "border: 1px solid #d7d7ea"};
 `;
 
 export default MessageBotcamp;
