@@ -10,6 +10,15 @@ import MessageBotcamp from "../../components/MessageBotcamp";
 import MessageWrapper from "../../components/MessageWrapper";
 import AvatarMessage from "../../components/AvatarMessage";
 
+const handleSubmit = (event) => {
+  event.preventDefault();
+  console.log("vai");
+};
+
+const handleChange = (event) => {
+  console.log(event.target.value);
+}
+
 const Chat = () => (
   <>
     <HeaderWrapper>
@@ -25,11 +34,8 @@ const Chat = () => (
       <AvatarMessage content="123.123.123-37" />
     </MessageWrapper>
 
-    <FormMessage onSubmit={(event) => {
-      event.preventDefault();
-      console.log("vai");
-    }}>
-      <InputMessage />
+    <FormMessage onSubmit={handleSubmit}>
+      <InputMessage onChange={handleChange} />
     </FormMessage>
   </>
 );
